@@ -1,7 +1,6 @@
 const { Thought, User, Reaction } = require("../models");
 const { Types } = require("mongoose");
 
-// The thoughtController object will contain a method for each of the required functions in the /api/thoughts endpoint. The method signatures are as follows:
 const thoughtController = {
   async getAllThoughts(req, res) {
     try {
